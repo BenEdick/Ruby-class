@@ -1,0 +1,63 @@
+!!!
+%html
+  %head
+    %title Art
+    %link{:href => "blog.css", :rel => "stylesheet"}/
+  %body
+    .container
+      %header
+        %nav
+          %ul
+            %li
+              %a{:href => "index.html"} Home
+            %li
+              %a{:href => "blog.html"} Blog
+            %li
+              %a{:href => "about.html"} About
+            %li
+              %a{:href => "contact-us.html"} Contact Us
+        %h1 Artsee
+      %section
+        .headerImage
+          %img#imageTop{:src => "http://4.bp.blogspot.com/-O8NDpNbC7Ak/TfHEBgqg67I/AAAAAAAAAAw/rGuOuqOYYto/s1600/beach_panoramic_by_DanielGallop.jpg"}/
+      #content
+        %aside.sidebar
+          %ul.categories
+            %li Photography
+            %li Fine Art
+            %li Decorative Art
+            %li Vintage Art
+        %section#posts
+          %h2 Blog
+          %article.post
+            %h3 Went to the park today
+            .meta
+              %time 5/30/2013
+              %span.author Joe Jones
+            %summary
+              %span.art
+                %img{:alt => "tree Piter Lik", :src => "img/tree.jpg"}/
+              %span.postText/
+              %p It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat.
+          %article.post
+            .newPost
+              %h3 Late Night Moon
+              .meta
+                %time 5/30/2013
+                %span.author Joe Jones
+              %summary
+                %span.art
+                  %img{:alt => "tree Piter Lik", :src => "img/moon.jpg"}/
+                %span.postText/
+                %p It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat. It was a beautiful day. And we played fetch with the cat.
+      %footer
+        %ul
+          %li#title Site
+          %li
+            %a{:href => "#"} Home
+          %li
+            %a{:href => "#"} Contact Us
+          %li
+            %a{:href => "#"} About
+        #copyright
+          \&copy; 2013 Sunshine Blog

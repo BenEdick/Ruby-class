@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title Blog Title
+  %body
+    .container
+      %header
+        %nav
+          %ul
+            %li Home
+            %li Posts
